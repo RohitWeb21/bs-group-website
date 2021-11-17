@@ -1,0 +1,163 @@
+.Home{
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+}
+.Main_home_section {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s; 
+  background: url("../../images/Home_bg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.Home_content {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+.home_content_after_scroll_size{
+  position: relative;
+  width: 100vw;
+  height: 20vh;
+  z-index: 2;
+}
+
+.Home_main_data{
+  width: 100%;
+  height: 100vh;
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+ 
+
+}
+.Show_home_data{
+  visibility: visible;
+
+}
+.Home_main_data .perfection_headding{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home_main_data .perfection_headding h2{
+  font-size: 5rem;
+  font-weight: 800;
+  color: #f6f6f6;
+  text-transform: capitalize;
+}
+.Home_main_data .perfection_headding h2 span{
+  color: #0098ee;
+}
+.Home_main_data .video_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* position change logo css  */
+.Navbar_logo {
+  width: 800px;
+  transition: .6s;
+}
+.Navbar_logo_position{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Navbar_logo_size{
+width: 250px;
+position: fixed;
+top: 30px;
+left: 150px;
+z-index: 998;
+
+}
+
+
+
+/* media Query start  */
+@media (max-width: 990px) {
+    .Navbar_logo {
+    width: 500px;
+    transition: .5s;
+  }
+  .Navbar_logo_size{
+    width: 180px;
+    position: fixed;
+    top: 30px;
+    left: 90px;
+    z-index: 998;
+    
+    }
+    .Home_main_data .perfection_headding h2{
+      font-size: 5rem;
+      font-weight: 800;
+      color: #000000;
+      text-transform: capitalize;
+      position: relative;
+      top: 250px;
+      
+    }
+    .video_div{
+      display: none;
+      visibility: hidden;
+    }
+}
+@media (max-width: 600px) {
+
+  .Navbar_logo {
+    width: 180px;
+    transition: .5s;
+  }
+  .Navbar_logo_position{
+    width: 350px;
+    position: fixed;
+    top: 250px;
+    left: 170px;
+    z-index: 998;
+  }
+  
+    .Navbar_logo_size{
+      width: 180px;
+      position: fixed;
+      top: 30px;
+      left: 90px;
+      z-index: 998;
+      
+      }
+      .Home_main_data .perfection_headding h2{
+        font-size: 4rem;
+        font-weight: 800;
+        color: #000;
+        text-transform: capitalize;
+        position: relative;
+        top: 250px;
+        left: 40px;
+      }
+}
+
+
+
+/* height media query's */
+ 
+@media (max-height:550px){
+  .Home_main_data .perfection_headding h2{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #000;
+    text-transform: capitalize;
+    position: relative;
+    top: 50px;
+    left: 40px;
+  }
+}

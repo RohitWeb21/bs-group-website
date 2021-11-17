@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px) {
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* up arrow scroll  */
+body{
+  font-family: "Roboto", sans-serif !important;
+}
+.Up_Arrow {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(155, 155, 155, 0.637);
+  position: fixed;
+  right: 40px;
+  top: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.Up_Arrow:hover {
+  background-color: #0090f8;
+}
+.ScrollArrow_show {
+  opacity: 1;
+}
+.up_arrow_color {
+  color: #0090f8;
+}
+.Up_Arrow:hover .up_arrow_color {
+  color: #000;
+}
+

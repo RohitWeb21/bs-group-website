@@ -1,0 +1,180 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,400;1,500;1,600;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: BsLogoFont;
+  src: url("../../Fonts/habanera-extrabold.ttf");
+}
+
+/* colors */
+
+.text_blue_group {
+  color: #0090f8;
+  text-transform: uppercase;
+  font-family: "BsLogoFont", "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+}
+.text_white_bs {
+  color: #f6f6f6;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-family: "BsLogoFont", "Poppins", sans-serif;
+}
+.contact_us_Font_size {
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.contact_form_main_section {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 20px;
+  background: url("../../images/headding_back2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+/* headding css start  */
+
+.contact_form_main_section .contact_heading_div {
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+  height: auto;
+  text-align: center;
+  margin: 0px;
+  /* background: url("../images/headding_back2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  backdrop-filter: 25px;
+  padding-bottom: 60px;
+  position: relative;
+  filter: contrast(-1);
+filter:grayscale(-20)
+}
+
+.contact_form_main_section .contact_heading_div .contact_heading {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #f6f6f6;
+  word-spacing: 40px;
+  letter-spacing: 5px;
+}
+.contact_form_main_section .contact_heading_div .bs_logo_bg {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 30px;
+  animation: bs-logo-spin infinite 15s linear;
+}
+@keyframes bs-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* start media query */
+/* @media (max-width: 1450px) {
+}
+@media (max-width: 990px) {
+} */
+
+@media (max-width: 920px) {
+  .contact_form_main_section .contact_heading_div .contact_heading {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #f6f6f6;
+    word-spacing: 25px;
+    letter-spacing: 3px;
+  }
+  .contact_form_main_section .contact_heading_div .bs_logo {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+  .bs_logo_text {
+    position: relative;
+    top: 3px;
+  }
+  .text_blue_group  {
+    color: #0090f8;
+    text-transform: uppercase;
+    font-family: "BsLogoFont", "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .text_white_bs {
+    color: #f6f6f6;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-family: "BsLogoFont", "Poppins", sans-serif;
+  }
+  .contact_us_Font_size {
+    font-weight: 700;
+    letter-spacing: 5px;
+  }
+}
+/* @media (max-width: 770px) {
+}
+ */
+
+ @media (max-width:880px) {
+  .bs_logo_text {
+    position: relative;
+    top:-3px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .contact_form_main_section .contact_heading_div .contact_heading {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #f6f6f6;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+  }
+  .contact_form_main_section .contact_heading_div .bs_logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  .bs_logo_text {
+    position: relative;
+    top: -3px;
+  }
+  .text_blue_group {
+    color: #0090f8;
+    text-transform: uppercase;
+    font-family: "BsLogoFont", "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .text_white_bs {
+    color: #f6f6f6;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-family: "BsLogoFont", "Poppins", sans-serif;
+  }
+  .contact_us_Font_size {
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+}
+/* 
+@media (max-width: 450px) {
+} */

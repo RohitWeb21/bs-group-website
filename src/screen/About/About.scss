@@ -1,0 +1,118 @@
+.About {
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+  background-color: transparent;
+  position: relative;
+
+  .About_inner {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .About_heading {
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    left: 40px;
+  }
+  .about_pera {
+    font-size: 1.2rem;
+    color: #585858;
+    text-align: justify;
+    padding-left: 20px;
+
+    .About_pera_tittle{
+      font-size: 1.5rem;
+
+    }
+  }
+  .About_more_arrow {
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-decoration: none;
+
+    .About_more_arrow_animation {
+      animation: RightSakeArrow 1s linear infinite;
+    }
+    @keyframes RightSakeArrow {
+      0% {
+        position: relative;
+        left: 0px;
+      }
+      25% {
+        position: relative;
+        left: 10px;
+      }
+      50% {
+        position: relative;
+        left: 5px;
+      }
+      75% {
+        position: relative;
+        left: 10px;
+      }
+      100% {
+        position: relative;
+        left: 0px;
+      }
+    }
+  }
+
+  //  about img
+
+  .About_img_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    //   .round_img_div {
+    //     width: 450px;
+    //     height: 450px;
+    //     border-radius: 50%;
+    //     overflow: hidden;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    .About_img {
+      width: 450px;
+      height: 450px;
+    }
+  }
+}
+
+// media Query
+
+// @media(max-width:450px){
+//   .About_img_section .About_img {
+//       width: 350px;
+//       height: 350px;
+
+//   }
+// }
+
+$layout-breakpoint-small: 500px;
+
+@media (max-width: $layout-breakpoint-small) {
+  .About  {
+    .About_img_section .About_img{
+    width: 350px;
+    height: 350px;
+  }
+
+.about_pera {
+  font-size: 1.2rem;
+  color: #585858;
+  text-align: justify;
+  padding-left: 0px;
+
+
+  .About_pera_tittle{
+    font-size: 1.3rem;
+
+  }
+}
+}
+
+}
+// }

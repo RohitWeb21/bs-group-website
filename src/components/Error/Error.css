@@ -1,0 +1,19 @@
+.error_section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1000;
+  background-color: #fff;
+}
+.errorText {
+  font-size: 7rem;
+  text-align: center;
+  font-weight: 700;
+}
+.errorText span {
+  font-weight: 900;
+  color: #ff0000;
+}

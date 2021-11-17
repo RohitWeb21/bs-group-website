@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+  /* background-color: #cecece; */
+background: url("./images/body_bg.webp");
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: 'Lato', sans-serif;;
+}
+/* .Main-Section:hover body {
+
+  background: url("./images/body_back_bg.jpg");
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
