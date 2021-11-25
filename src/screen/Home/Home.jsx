@@ -15,7 +15,6 @@ const Home = () => {
       window.scrollY > 10
     );
   });
-
   return (
     <>
     <main className="Home">

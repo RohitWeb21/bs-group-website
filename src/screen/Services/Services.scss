@@ -1,32 +1,29 @@
-.services_main{
+.services_main {
   width: 100%;
   height: auto;
   box-sizing: border-box;
   overflow: hidden;
- position: relative;
- 
+  position: relative;
 }
 
-  .services_heading{
-    font-size: 3.5rem;
-    font-weight: 600;
-    text-transform: capitalize;
-    position: relative;
-    left: 40px; 
-  }
-
+.services_heading {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: relative;
+  left: 40px;
+}
 
 // services section design css
 
 .services_card_designs {
- 
   margin-top: 80px;
   z-index: 100;
   .main_design_section {
     .services_img_section {
-        img{
-            width: 100%;
-        }
+      img {
+        width: 100%;
+      }
     }
     .pera_section {
       .services_pera {
@@ -35,31 +32,28 @@
         text-align: justify;
         padding-left: 20px;
       }
-      .button-div{
-        .card-btn-link{
-            outline: none;
-            border: none;
-            background-color: blanchedalmond;
-            margin-left: 20px;
-            margin-bottom: 40px;
-        a{
+      .button-div {
+        .card-btn-link {
+          outline: none;
+          border: none;
+          background-color: blanchedalmond;
+          margin-left: 20px;
+          margin-bottom: 40px;
+          a {
             text-decoration: none;
             font-size: 1.3rem;
-           .right_arrow_position{
-               position: relative;
-               right: 14px;
-               transition: 0.5s;
-               
-           }
-           
+            .right_arrow_position {
+              position: relative;
+              right: 14px;
+              transition: 0.5s;
+            }
+          }
         }
-        }
-        .card-btn-link:hover a .right_arrow_position{
-            position: relative;
-            right: 0px;
+        .card-btn-link:hover a .right_arrow_position {
+          position: relative;
+          right: 0px;
         }
       }
-     
     }
   }
 }
