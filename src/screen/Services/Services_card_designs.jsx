@@ -1,15 +1,13 @@
 // import graphics_img from "../../images/graphics.gif";
-import AOS, { init } from 'aos';
-import 'aos/dist/aos.css';
+import AOS, { init } from "aos";
+import "aos/dist/aos.css";
 const Services_card_designs = (props) => {
-  AOS.init(
-    {
-      offset: 150,
-      duration: 500,
-      easing: "ease-in-sine",
-      delay: 100,
-    }
-  )
+  AOS.init({
+    offset: 150,
+    duration: 500,
+    easing: "ease-in-sine",
+    delay: 100,
+  });
   return (
     <>
       <main className="services_card_designs container " data-aos="fade-up">
